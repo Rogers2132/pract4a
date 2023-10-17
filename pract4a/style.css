@@ -1,0 +1,300 @@
+
+.containerr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-right: 33%;
+    margin-bottom: 3%;
+}
+
+.nav-item {
+    cursor: pointer;
+    margin: 6px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    color: purple;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.image img {
+    width: 130vh;
+    border-radius: 50px;
+    filter: brightness(0.7);
+    display: grid;
+    place-items: center; 
+    height: 75vh;
+}
+
+.email-input {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    position: absolute;
+    text-align:center ;
+    bottom: 30%;
+    right: 62%;
+}
+
+.email-input input {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.submit-button {
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    
+}
+
+
+.circle-image img {
+    border-radius: 50%;
+    width: 100%;
+    height: 150px;
+}
+
+.text {
+    font-size: 17px;
+    color: white;
+    position: absolute;
+    text-align:center ;
+    right: 62%;
+    bottom: 41%;
+    margin: 15px;
+}
+
+.text1 {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    bottom: 50%;
+    right: 63%;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+.container {
+    display: grid;
+    place-items: center; 
+    height: 60vh;
+    background-color: rgb(251, 236, 237);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 200vh;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.round-image {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.cities {
+    margin: 40px;
+}
+
+p {
+    font-weight: bolder;
+    margin: 0;
+}
+
+.new img {
+    border-radius: 70px;
+
+}
+
+.item1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.main-text {
+    margin: 20px;
+}
+
+.item2 {
+    font-size: 20px;
+    margin: 0px;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.imag {
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.image1 {
+    background-image: url('pictures/house-isolated-field.jpg');
+}
+
+.image2 {
+    background-image: url('pictures/apartment-building-city-with-copy-space.jpg');
+}
+
+.image3 {
+    background-image: url('pictures/la.jpeg');
+}
+
+.second-row {
+    margin-top: 5px;
+}
+
+.image4 {
+    background-image: url('pictures/6.jpeg');
+}
+
+.image5 {
+    background-image: url('pictures/5.jpeg');
+}
+
+.image6 {
+    background-image: url('pictures/low-angle-shot-facade-white-modern-building-blue-clear-sky.jpg');
+}
+
+
+.seca {
+    margin: 50px;
+}
+
+.ro {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.photo {
+    border-radius: 10%;
+    width: 500px;
+    height: 525px;
+    margin-right: 10px;
+}
+
+.text-container {
+    border-radius: 10%;
+    background-color:  rgb(240,239,253);
+    padding: 10px; 
+    flex-grow: 1;
+    width: 500px;
+    height: 500px;
+}
+
+.chat {
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+.mn-text {
+    margin-right: 40%;
+}
+
+.item3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.item4 {
+    font-size: 20px;
+    margin: 25px;
+    
+}
+
+.last {
+    
+    height: 40vh;
+}
+
+
+
+.end {
+
+    margin: 50px;
+    background-color: rgb(251, 236, 237);
+    align-items: end;
+    width: 100%;
+}
+
+h3 {
+    font-size: 40px;
+    position: absolute;
+    right: 50%;
+}
+
+h2 {
+    font-weight: lighter;
+    position: absolute;
+    right: 48%;
+    margin-top: 100px;
+}
+
+.buttons {
+    position: absolute;
+    right: 43%;
+    margin-top: 250px;
+
+}
+
+li {
+    margin: 50px;
+    font-weight: bolder;
+}
+
+.chat2 {
+    margin: 20;
+    font-size: 20px;
+}
